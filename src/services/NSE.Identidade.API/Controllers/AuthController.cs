@@ -18,8 +18,6 @@ namespace NSE.Identidade.API.Controllers
             _userManager = userManager;
         }
 
-
-
         [HttpPost("nova-conta")]
         public async Task<ActionResult> Registrar(UsuarioRegistro usuarioRegistro)
         {
